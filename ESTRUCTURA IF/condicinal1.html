@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="number" id="numero" placeholder="ingrese numero">
+    <button onclick="comprobar()">Verificar</button>
+
+
+    <script>
+
+        function comprobar() {
+
+            let num = parseInt(document.getElementById("numero").value)
+
+            if (num > 0) {
+                alert("es positivo")
+            } else if (num < 0) {
+                alert("es negativo")
+            } else {
+                alert("el numero es 0")
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>

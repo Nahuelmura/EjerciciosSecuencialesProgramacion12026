@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <input type="numer" id="num" placeholder="ingrese numero">
+    <button onclick="verificar()">Ver</button>
+
+    <script>
+        function verificar() {
+
+            let numero = parseInt(document.getElementById("num").value)
+    
+
+
+            if (numero % 2  === 0)
+        {
+            alert("el numero es par")
+        } else {
+                alert("es impar")
+            }
+            
+        }
+    </script>
+</body>
+</html>
