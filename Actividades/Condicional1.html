@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+       let ladoA = parseInt(prompt("Ingrese longitud lado a"));
+        let ladoB = parseInt(prompt("Ingrese longitud lado b"));
+        let ladoC = parseInt(prompt("Ingrese longitud lado c")); 
+
+        if (ladoA == ladoB && ladoB == ladoC)
+         {
+            alert("El triángulo es Equilátero");
+
+        } else if (ladoA == ladoB || ladoA == ladoC || ladoB == ladoC)
+         {
+            alert("El triángulo es Isósceles");
+        } else {
+             alert("El triángulo es Escaleno");
+        }
+    </script>
+</body>
+
+</html>

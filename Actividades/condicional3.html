@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let cantidad = parseInt(prompt("Ingrese la cantidad de articulos "));
+            let precioUnitario = parseFloat(prompt("Ingrese el precio unitario "));
+
+            let total = cantidad * precioUnitario;
+
+            if (cantidad > 10) {
+                let descuento = total * 0.10;
+                total = total - descuento; 
+              alert("se aplico un descuento del 10  $" + total);
+            } else {
+                alert("No aplica descuento" + total);
+            }
+    </script>
+</body>
+</html>

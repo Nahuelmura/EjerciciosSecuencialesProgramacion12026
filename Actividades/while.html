@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+     <script>
+        let suma =  0;
+let ingresarMonto = parseInt(prompt("Ingrese Monto"))
+
+        while (ingresarMonto != 0) {
+
+            if(ingresarMonto < 0)
+        {
+            alert("error no se admiten montos negativos")
+        } else
+        {
+            suma += ingresarMonto
+        }
+           ingresarMonto = parseInt(prompt("Ingrese Monto"))
+        }
+
+        alert(suma)
+     </script>
+</body>
+</html>

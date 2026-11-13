@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let listado = " ";
+
+        let producto = prompt("Ingrese el nombre del producto ")
+
+        while( producto != "fin")
+    {
+        let cantidad = parseInt(prompt("Ingrese la cantidad del prodcuto"))
+
+        listado += producto + " : " + cantidad + "unidades\n"
+
+        producto = prompt("Ingrese el nombre del producto ")
+    }
+
+    alert( listado);
+    </script>
+    
+</body>
+</html>

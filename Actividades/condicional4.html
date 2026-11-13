@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let stock = parseInt(prompt("Ingrese la cantidad del producto"));
+
+            if (stock == 0) {
+                alert("Producto agotado");
+            } else if (stock >= 1 && stock <= 10) {
+                alert("Stock bajo");
+            } else if (stock > 10) {
+                alert("Stock suficiente");
+            } else {
+               alert("Cantidad invalida (no puede haber stock negativo)");
+            }
+    </script>
+</body>
+</html>
